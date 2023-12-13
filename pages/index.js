@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [walletAddress, setWalletAddress] = useState("");
-  const [apiKey, setApiKey] = useState(""); //78a4c8d0-5e91-4286-b2ad-8c4faa0558a7
+  const [apiKey, setApiKey] = useState("");
   const [apiResponse, setApiResponse] = useState("");
   ("");
   const baseURL = "http://160.202.128.3:8000";
